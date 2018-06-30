@@ -1,0 +1,30 @@
+{
+  "name": "front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=production node ./bin/www.js",
+    "start-dev": "DEBUG=front-end:* nodemon ./bin/www.js",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rarango1992/frontend-node.git"
+  },
+  "author": "Rodrigo Arango de Palacio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rarango1992/frontend-node/issues"
+  },
+  "homepage": "https://github.com/rarango1992/frontend-node#readme",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
+}
